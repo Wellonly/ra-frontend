@@ -1,0 +1,73 @@
+{
+    "name": "ra-frontend",
+    "version": "3.0.0",
+    "private": true,
+    "homepage": "https://example.com",
+    "scripts": {
+        "analyze": "source-map-explorer 'build/static/js/*.js'",
+        "start": "react-scripts start",
+        "dev": "yarn start",
+        "build": "react-scripts build",
+        "eject": "react-scripts eject",
+        "clean": "rm -rf ./node_modules && echo ..clean ok",
+        "allclean": "rm -rf ./node_modules && rm ./yarn.lock && echo ..allclean ok"
+    },
+    "dependencies_remove": {
+        "query-string": "5.1.1 imported from ra-core",
+        "apollo-boost": "0.4.9",
+        "apollo-link-http": "1.5.17",
+        "apollo-link-ws": "1.0.20",
+        "data-generator-retail": "^3.1.0",
+        "data-generator-retail-before": "^3.5.5"
+    },
+    "dependencies": {
+        "@material-ui/core": "4.11.0",
+        "@material-ui/icons": "4.9.1",
+        "@apollo/client": "3.2.0",
+        "subscriptions-transport-ws": "0.9.18",
+        "graphql": "14.1.1",
+        "graphql-ast-types": "1.0.2",
+        "graphql-tag": "2.11.0",
+        "lodash": "4.17.20",
+        "ms": "2.1.2",
+        "pluralize": "8.0.0",
+        "proxy-polyfill": "0.3.2",
+        "query-string": "6.13.1",
+        "ra-i18n-polyglot": "3.7.2",
+        "ra-input-rich-text": "3.7.2",
+        "ra-language-english": "3.7.2",
+        "react": "16.13.1",
+        "react-admin": "3.7.2",
+        "react-app-polyfill": "1.0.6",
+        "react-dom": "16.13.1",
+        "react-redux": "7.2.1",
+        "react-router": "5.2.0",
+        "react-router-dom": "5.2.0",
+        "react-scripts": "3.4.1",
+        "recharts": "1.8.5",
+        "recompose": "0.30.0"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 10",
+        "not op_mini all"
+    ],
+    "devDependencies_remove": {
+        "source-map-explorer": "^2.2.2"
+    },
+    "devDependencies": {
+        "@types/classnames": "2.2.10",
+        "@types/jest": "26.0.9",
+        "@types/lodash": "4.14.159",
+        "@types/node": "14.0.27",
+        "@types/query-string": "6.3.0",
+        "@types/react": "16.9.44",
+        "@types/react-dom": "16.9.8",
+        "@types/react-redux": "7.1.9",
+        "@types/react-router-dom": "5.1.5",
+        "@types/recharts": "^1.8.14",
+        "@types/recompose": "0.30.7",
+        "typescript": "3.7.5"
+    }
+}

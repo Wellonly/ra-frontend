@@ -1,0 +1,242 @@
+{
+  "customers": [
+    {
+      "id": 0,
+      "first_name": "Valentine",
+      "last_name": "Jacobi",
+      "email": "Valentine56@hotmail.com",
+      "address": null,
+      "zipcode": null,
+      "city": null,
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/tgormtx/128.jpg",
+      "birthday": null,
+      "first_seen": "2019-08-21T06:38:21.619Z",
+      "last_seen": "2019-11-22T16:18:04.432Z",
+      "has_ordered": false,
+      "latest_purchase": null,
+      "has_newsletter": true,
+      "groups": [],
+      "nb_commands": 0,
+      "total_spent": 0
+    },
+    {
+      "id": 1,
+      "first_name": "Well",
+      "last_name": "Li",
+      "email": "zv@hotmail.com",
+      "address": null,
+      "zipcode": null,
+      "city": null,
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/tgormtx/127.jpg",
+      "birthday": null,
+      "first_seen": "2019-08-21T06:38:21.619Z",
+      "last_seen": "2019-11-22T16:18:04.432Z",
+      "has_ordered": false,
+      "latest_purchase": null,
+      "has_newsletter": true,
+      "groups": [],
+      "nb_commands": 0,
+      "total_spent": 0
+    },
+    {
+      "id": 2,
+      "first_name": "Well2",
+      "last_name": "Li2",
+      "email": "zv2@hotmail.com",
+      "address": null,
+      "zipcode": null,
+      "city": null,
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/tgormtx/126.jpg",
+      "birthday": null,
+      "first_seen": "2019-08-21T06:38:21.619Z",
+      "last_seen": "2019-11-22T16:18:04.432Z",
+      "has_ordered": false,
+      "latest_purchase": null,
+      "has_newsletter": true,
+      "groups": [],
+      "nb_commands": 0,
+      "total_spent": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "animals"
+    },
+    {
+      "id": 1,
+      "name": "books"
+    },
+    {
+      "id": 2,
+      "name": "cars"
+    }
+  ],
+  "products": [
+    {
+      "id": 0,
+      "category_id": 0,
+      "reference": "an-g8bnl-Y",
+      "width": 12.91,
+      "height": 38.54,
+      "price": 32.9,
+      "thumbnail": "https://marmelab.com/posters/animals-1.jpeg",
+      "image": "https://marmelab.com/posters/animals-1.jpeg",
+      "description": "Voluptatem eum iure dignissimos. Iste sint nihil ut quod. Voluptatibus recusandae earum sed aliquam a. Earum eligendi non.",
+      "stock": 11
+    },
+    {
+      "id": 1,
+      "category_id": 0,
+      "reference": "an-l0q0c-S",
+      "width": 30.68,
+      "height": 39.17,
+      "price": 74.65,
+      "thumbnail": "https://marmelab.com/posters/animals-2.jpeg",
+      "image": "https://marmelab.com/posters/animals-2.jpeg",
+      "description": "Qui ut quisquam nemo dignissimos. Ipsa adipisci et architecto accusantium velit facilis nihil. Recusandae dolorem autem quam occaecati et amet.",
+      "stock": 21
+    }
+  ],
+  "commands": [
+    {
+      "id": 0,
+      "reference": "4RJIF8",
+      "date": "2016-10-08T04:39:25.908Z",
+      "customer_id": 1,
+      "basket": [
+        {
+          "product_id": 0,
+          "quantity": 1
+        },
+        {
+          "product_id": 2,
+          "quantity": 3
+        },
+        {
+          "product_id": 1,
+          "quantity": 1
+        }
+      ],
+      "total_ex_taxes": 323.68999999999994,
+      "delivery_fees": 7.03,
+      "tax_rate": 0.12,
+      "taxes": 39.69,
+      "total": 370.41,
+      "status": "delivered",
+      "returned": false
+    },
+    {
+      "id": 1,
+      "reference": "AH7679",
+      "date": "2018-04-29T11:59:13.075Z",
+      "customer_id": 2,
+      "basket": [
+        {
+          "product_id": 2,
+          "quantity": 5
+        }
+      ],
+      "total_ex_taxes": 136.54999999999998,
+      "delivery_fees": 3.9,
+      "tax_rate": 0.12,
+      "taxes": 16.85,
+      "total": 157.3,
+      "status": "delivered",
+      "returned": false
+    },
+    {
+      "id": 2,
+      "reference": "AH2679",
+      "date": "2018-04-29T11:59:13.075Z",
+      "customer_id": 2,
+      "basket": [
+        {
+          "product_id": 1,
+          "quantity": 5
+        }
+      ],
+      "total_ex_taxes": 136.54999999999998,
+      "delivery_fees": 3.9,
+      "tax_rate": 0.12,
+      "taxes": 16.85,
+      "total": 157.3,
+      "status": "ordered",
+      "returned": false
+    }
+  ],
+  "invoices": [
+    {
+      "id": 0,
+      "date": "2015-10-05T04:25:06.067Z",
+      "command_id": 1,
+      "customer_id": 0,
+      "total_ex_taxes": 178.26,
+      "delivery_fees": 6.3,
+      "tax_rate": 0.12,
+      "taxes": 22.15,
+      "total": 206.71
+    },
+    {
+      "id": 1,
+      "date": "2016-01-20T09:23:22.865Z",
+      "command_id": 1,
+      "customer_id": 1,
+      "total_ex_taxes": 230.57000000000002,
+      "delivery_fees": 7.57,
+      "tax_rate": 0.17,
+      "taxes": 40.48,
+      "total": 278.62
+    }
+  ],
+  "reviews": [
+    {
+      "id": 0,
+      "date": "2018-02-13T02:09:14.288Z",
+      "status": "rejected",
+      "command_id": 0,
+      "product_id": 1,
+      "customer_id": 2,
+      "rating": 5,
+      "comment": "Qui voluptatem nostrum quasi ut aut. Eum et aut ut reiciendis voluptatum iure optio. Aliquam asperiores doloribus error ut. Vel tempora blanditiis et eum rerum perspiciatis.\n \rIpsum nam ducimus fuga. Aut veniam ut soluta est ab. Incidunt deleniti ab eligendi esse. Explicabo non laboriosam consequuntur sunt enim ullam. Id maxime quisquam accusantium dolor.\n \rAccusantium eligendi necessitatibus iusto quod tenetur ducimus qui facere aut. Quam possimus impedit quaerat amet expedita officiis ipsam consequuntur."
+    },
+    {
+      "id": 1,
+      "date": "2019-06-13T04:12:39.376Z",
+      "status": "rejected",
+      "command_id": 2,
+      "product_id": 1,
+      "customer_id": 0,
+      "rating": 5,
+      "comment": "Quis itaque dolores cum. Blanditiis et dicta voluptates velit aut sed."
+    }
+  ],
+  "settings": [
+    {
+      "id": 1,
+      "configuration": {
+        "url": "http://example.com/",
+        "mail": {
+          "sender": "ex@example.com",
+          "transport": {
+            "service": "servmail",
+            "auth": {
+              "user": "ex@mail.com",
+              "pass": "f00b@r"
+            }
+          }
+        },
+        "file_type_whiltelist": [
+          "txt",
+          "doc",
+          "docx",
+          "xls",
+          "xlsx",
+          "pdf",
+          "png",
+          "jpg"
+        ]
+      }
+    }
+  ]
+}
